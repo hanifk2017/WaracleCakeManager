@@ -1,0 +1,6 @@
+
+1. Migrated code to SpringBoot 2.4.4
+2. Cleaned up CakeEntity class for naming consistency and constraints
+3. Used RestTemplate to fetch initial data
+4. Added basic tests for Controller
+5. Unfortunately didn't have time for the rest (dockerize via SpringBoot, OAuth and CI/CD) due to lack of setup
