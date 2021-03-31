@@ -4,3 +4,10 @@
 3. Used RestTemplate to fetch initial data
 4. Added basic tests for Controller
 5. Unfortunately didn't have time for the rest (dockerize via SpringBoot, OAuth and CI/CD) due to lack of setup
+6. Use Postman/Browser to test or Curl 
+
+		curl --location --request GET 'http://localhost:8282/'
+		
+		curl --location --request POST 'http://localhost:8282/cakes' \
+				--header 'Content-Type: application/json' \
+				--data-raw '{"title":"1","desc":"2","image":"3"}'
