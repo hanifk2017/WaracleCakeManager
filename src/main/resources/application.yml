@@ -25,8 +25,8 @@ spring:
 #      client:
 #        registration:
 #          github:
-#            clientId: 4e4c12f64023402051ba
-#            clientSecret: 0e6c61481da00eb96789e0288579536e038d14b3
+#            clientId: 
+#            clientSecret:
     
 cake:
   dataUrl: https://gist.githubusercontent.com/hart88/198f29ec5114a3ec3460/raw/8dd19a88f9b8d24c23d9960f3300d0c917a4f07c/cake.json
