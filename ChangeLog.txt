@@ -11,3 +11,12 @@
 		curl --location --request POST 'http://localhost:8282/cakes' \
 				--header 'Content-Type: application/json' \
 				--data-raw '{"title":"1","desc":"2","image":"3"}'
+
+7.  Docker
+
+		to build 	sudo docker build --tag=waraclecakemanager:latest .
+		to run 		sudo docker run -p8887:8282 waraclecakemanager:latest
+		
+		Use 6 above to test	on the docker port 8887
+		
+		
